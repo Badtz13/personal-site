@@ -1,31 +1,15 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <main id="app" class="bg-blue-100">
+    <div class="flex w-auto bg-blue-800">
+      <router-link to="/" class="px-4 py-2 text-white hover:text-blue-200">Home</router-link>
+      <router-link to="/blog" class="px-4 py-2 text-white hover:text-blue-200 pl-0">Blog</router-link>
     </div>
     <router-view/>
-  </div>
+  </main>
 </template>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+html,body,#app{
+  height: 100%;
 }
 </style>
