@@ -1,15 +1,10 @@
 <template>
   <div class="flex flex-col-reverse">
-    <a
-      v-for="(post, key) in posts"
-      :key="post.title"
-      :href="'post/' + key"
-      class="container mx-auto mt-4 bg-white text-center shadow-md p-2 hover:shadow-lg"
-    >
+    <div v-if="this.post !== 'loading'" class="container mx-auto mt-4 bg-white text-center shadow-md p-2">
       <h1 class="text-2xl pb-2 text-blue-700">{{post.title}}</h1>
       <p> {{post.content}} </p>
       <aside class="text-sm pt-4 text-gray-600">{{new Date(post.date).toDateString() }}</aside>
-    </a>
+    </div>
   </div>
 </template>
 
@@ -23,12 +18,12 @@ export default {
   },
   data () {
     return {
-      posts: {}
+      post: 'loading'
     }
   },
   mounted () {
-    firebase.database().ref('/posts').orderByChild('date').once('value', (snapshot) => {
-      this.posts = snapshot.val()
+    firebase.database().ref('/posts/' + this.$route.params.id).once('value', (snapshot) => {
+      this.post = snapshot.val()
     })
   }
 }
