@@ -3,7 +3,6 @@ import config from '@/firebaseConfig.js'
 import * as firebase from 'firebase/app'
 import Vue from 'vue'
 import App from './App.vue'
-import './registerServiceWorker'
 import router from './router'
 
 firebase.initializeApp(config)
