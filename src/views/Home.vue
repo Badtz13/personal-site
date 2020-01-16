@@ -15,20 +15,15 @@
     <div
       class="mx-8 pt-2 pb-4 text-gray-600"
     >Currently studying Computer Science / Japanese @ Western Washington University</div>
-    <p class="text-m text-gray-900 px-16 pb-4">
-      I started programming in around 4th grade and have was completely focused on it all the way through highschool. A year into college, a friend of mine invited me to go to
-      Japan for a month in the summer. In preperation for the trip, I decided I should take a Japanese Language class so that I could at least speak a little on my trip. I loved it,
-      and ended up taking a whole year's worth of class. While I still love programming and spend most of my free time working on various projects, I am mostly focusing on Japanese
-      in school, as I find the classes much more interesting.
-    </p>
-    <h3 class="pb-2 text-lg">Projects</h3>
+    <div class="container mx-auto bg-gray-200 h-32">Short content blurb about type of dev i do etc</div>
+    <h2 class="pb-2 text-lg">Projects</h2>
     <ul class="inline-flex text-blue-800">
       <li class="flex flex-col mr-4">
         <a class="hover:text-blue-600" href="http://attendance.pscs.org">PSCS Attendance</a>
         <a
-          class="text-sm text-gray-700 hover:text-gray-500"
+          class="text-sm text-gray-600 hover:text-gray-500"
           href="https://github.com/PSCS-Coding/Attendance_System"
-        >GitHub</a>
+        >Source</a>
       </li>
       <li class="flex flex-col mr-4">
         <a
@@ -36,38 +31,69 @@
           href="https://jagresearch.github.io/motifAnalyzerPDZ/"
         >BioParser</a>
         <a
-          class="text-sm text-gray-700 hover:text-gray-500"
+          class="text-sm text-gray-600 hover:text-gray-500"
           href="https://github.com/jagresearch/motifAnalyzerPDZ"
-        >GitHub</a>
+        >Source</a>
       </li>
       <li class="flex flex-col mr-4">
         <a class="hover:text-blue-600" href="https://classfinder.page/home">Classfinder.page</a>
         <a
-          class="text-sm text-gray-700 hover:text-gray-500"
+          class="text-sm text-gray-600 hover:text-gray-500"
           href="https://github.com/MiloCodes/classfinder.page"
-        >GitHub</a>
+        >Source</a>
       </li>
       <li class="flex flex-col mr-4">
         <a class="hover:text-blue-600" href="https://panel-6b9aa.firebaseapp.com">Tile Panel</a>
         <a
-          class="text-sm text-gray-700 hover:text-gray-500"
+          class="text-sm text-gray-600 hover:text-gray-500"
           href="https://github.com/coderLads/panel"
-        >GitHub</a>
+        >Source</a>
       </li>
-      <li class="flex flex-col mr-4">
+      <li class="flex flex-col mr-4 pb-4">
         <a class="hover:text-blue-600" href="https://badtz.dev">Badtz.dev</a>
         <a
-          class="text-sm text-gray-700 hover:text-gray-500"
+          class="text-sm text-gray-600 hover:text-gray-500"
           href="https://github.com/MiloCodes/personal-site"
-        >GitHub</a>
+        >Source</a>
       </li>
     </ul>
-    <div class="text-gray-700 py-2">
-      <h4 class="pt-4 pb-1 text-sm">Contact:</h4>
-      <div class="text-xs mx-auto w-56 flex flex-col">
-        <a class href="mailto:badtzmaru139@gmail.com">badtzmaru139.@gmail.com</a>
-        <a class href="tel:+19096435209‬ ">‪+1 909-643-5209‬</a>
-      </div>
+    <div>
+      <h3 class="pt-6 pb-2 text-lg">Skills</h3>
+      <section>
+        <div class="text-gray-600">I most often work with:</div>
+        <ul class="inline-flex text-blue-800">
+          <li class="px-4 py-2">HTML</li>
+          <li class="px-4 py-2">CSS</li>
+          <li class="px-4 py-2">Javascript</li>
+          <li class="px-4 py-2">NodeJS</li>
+          <li class="px-4 py-2">Vue</li>
+          <li class="px-4 py-2">Tailwind</li>
+          <li class="px-4 py-2">Firebase</li>
+          <li class="px-4 py-2">Yarn</li>
+        </ul>
+      </section>
+      <section class="pt-4">
+        <div class="text-gray-600">I have worked with:</div>
+        <ul class="inline-flex text-blue-800">
+          <li class="px-4 py-2">Typescript</li>
+          <li class="px-4 py-2">Electron</li>
+          <li class="px-4 py-2">Express</li>
+          <li class="px-4 py-2">PHP</li>
+          <li class="px-4 py-2">JQuery</li>
+          <li class="px-4 py-2">MySQL</li>
+          <li class="px-4 py-2">D3.js</li>
+          <li class="px-4 py-2">GraphQL</li>
+        </ul>
+      </section>
+      <section class="pt-4">
+        <div class="text-gray-600">Other languages I have used:</div>
+        <ul class="inline-flex text-blue-800">
+          <li class="px-4 py-2">R</li>
+          <li class="px-4 py-2">Python</li>
+          <li class="px-4 py-2">C</li>
+          <li class="px-4 py-2">Windows Batch</li>
+        </ul>
+      </section>
     </div>
   </div>
 </template>
