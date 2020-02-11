@@ -17,14 +17,14 @@
     <div
       class="pt-2 pb-4 text-gray-600 text-sm"
     >Currently studying Computer Science / Japanese @ Western Washington University</div>
-    <div class="container mx-auto bg-gray-200 h-16">
-      Short content blurb about type of dev i do etc
+    <div class="container mx-auto">
+      I am a primarily a front end developer currently focused on learning new web technologies.
     </div>
-    <h2 class="py-2 text-lg">Projects</h2>
+    <h2 class="pb-2 pt-6 text-lg">Projects</h2>
     <ul class="flex text-blue-800">
       <li class="flex flex-col mr-4 pr-2">
         <div class="w-32 h-16 overflow-hidden">
-          <img src="https://i.imgur.com/yk0IrDA.png" alt="PSCS Attendance System" class="w-32">
+          <img src="https://i.imgur.com/mUSKs1h.png" alt="PSCS Attendance System" class="w-32">
         </div>
         <a class="hover:text-blue-600" href="http://attendance.pscs.org">PSCS Attendance</a>
         <a
@@ -34,7 +34,7 @@
       </li>
       <li class="flex flex-col mr-4 pr-2">
         <div class="w-32 h-16 overflow-hidden">
-          <img src="https://i.imgur.com/o4OQ4Z6.png" alt="BioParser" class="w-32">
+          <img src="https://i.imgur.com/j5gCLUY.png" alt="BioParser" class="w-32">
         </div>
         <a
           class="hover:text-blue-600"
@@ -47,7 +47,7 @@
       </li>
       <li class="flex flex-col mr-4 pr-2">
         <div class="w-32 h-16 overflow-hidden">
-          <img src="https://i.imgur.com/xEyuU6w.png" alt="WWU Classfinder Replacement" class="w-32">
+          <img src="https://i.imgur.com/ZcCLr05.png" alt="WWU Classfinder Replacement" class="w-32">
         </div>
         <a class="hover:text-blue-600" href="https://classfinder.page/home">Classfinder.page</a>
         <a
@@ -57,7 +57,7 @@
       </li>
       <li class="flex flex-col mr-4 pr-2">
         <div class="w-32 h-16 overflow-hidden">
-          <img src="https://i.imgur.com/U5kb33e.jpg" alt="Tile Panel" class="w-32">
+          <img src="https://i.imgur.com/gmspwO7.jpg" alt="Tile Panel" class="w-32">
         </div>
         <a class="hover:text-blue-600" href="https://panel-6b9aa.firebaseapp.com">Tile Panel</a>
         <a
@@ -67,7 +67,7 @@
       </li>
       <li class="flex flex-col mr-4 pr-2">
         <div class="w-32 h-16 overflow-hidden">
-          <img src="https://i.imgur.com/ln3ZdzW.png" alt="Personal Site Badtz.dev" class="w-32">
+          <img src="https://i.imgur.com/yJdLcmO.png" alt="Personal Site Badtz.dev" class="w-32">
         </div>
         <a class="hover:text-blue-600" href="https://badtz.dev">Badtz.dev</a>
         <a
