@@ -18,7 +18,7 @@
       class="pt-2 pb-4 text-gray-600 text-sm"
     >Currently studying Computer Science / Japanese @ Western Washington University</div>
     <div class="container mx-auto">
-      I am a primarily a front end developer currently focused on learning new web technologies.
+      I am primarily a front end developer currently focused on learning new web technologies.
     </div>
     <h2 class="pb-2 pt-6 text-lg">Projects</h2>
     <ul class="flex text-blue-800">

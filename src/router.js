@@ -27,6 +27,11 @@ export default new Router({
       path: '/post/:id',
       name: 'post',
       component: () => import(/* webpackChunkName: "post" */ './views/Post.vue')
+    },
+    {
+      path: '/minecraft',
+      name: 'minecraft',
+      component: () => import(/* webpackChunkName: "blog" */ './views/Minecraft.vue')
     }
   ]
 })
